@@ -5,7 +5,8 @@ export default {
   content: [
     "./index.html",
     "./src/index.tsx",
-    "./src/components/**.tsx"
+    "./src/components/**.tsx",
+    "./src/chunks/**.tsx",
   ],
   theme: {
     extend: {
