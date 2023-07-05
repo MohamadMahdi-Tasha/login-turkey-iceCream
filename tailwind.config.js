@@ -4,11 +4,13 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{tsx}",
-    "./src/*.{tsx}",
+    "./src/index.tsx",
+    "./src/components/**.tsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {'theme-color': '#8e68d7',},
+    },
   },
   plugins: [],
 }
